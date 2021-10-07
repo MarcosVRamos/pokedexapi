@@ -1,0 +1,193 @@
+/*********SELETORES DE TAGS***********/
+body {
+	background: #8E2DE2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+li{
+    list-style: none;
+}
+
+hr {
+	display: block;
+	margin: 0;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+/* Titulo */
+
+
+.title h1{
+	font-family: 'Racing Sans One', cursive;
+	font-size: 5.625rem;
+	text-align: center;
+}
+
+
+.title h2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+}
+
+/* Pokedex */
+
+
+.pokedex {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 40px 100px;
+	padding-inline-start: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+.card{
+	border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+
+/* Pokedex - Título */
+
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px 0 23px;
+    text-transform: uppercase;
+}
+
+
+.card-name{
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+
+.card-id{
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+/* Pokedex - tipo pokemon */
+
+
+.card-subtitle{
+    font-family: 'JetBrains Mono', monospace;
+    width: fit-content;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 100px;
+    padding: 5px 15px 5px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+}
+
+
+/* Pokedex - imagem */
+
+
+.card-pokemon{
+    display: flex;
+    position: absolute;
+    margin-left: 190px;
+}
+
+.card-image{
+    width: 180px;
+    margin-left: 30px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 100;
+}
+
+.card-pokeball{
+    width: 180px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+    opacity: 0.2;
+}
+
+
+/* Pokedex - imagem */
+
+
+.steel {
+	background-color: #B8B8D0;
+}
+
+.fire {
+	background-color: #F08030;
+}
+
+.grass {
+	background-color: #78C870;
+}
+
+.electric {
+	background-color: #F8D030;
+}
+
+.water{
+	background-color: #6890F0;
+}
+
+.ice {
+    background-color: #98D8D8;
+}
+
+.ground {
+	background-color: #E0C068;
+}
+
+.rock {
+	background-color: #B8A038;
+}
+
+.fairy {
+	background-color: #EE99AC;
+}
+
+.poison {
+	background-color: #A040A0;
+}
+
+.bug {
+	background-color: #A8B820;
+}
+
+.dragon {
+	background-color: #7038F8;
+}
+
+.psychic {
+	background-color: #F85888;
+}
+
+.flying {
+	background-color: #F5F5F5;
+}
+
+.fighting {
+	background-color: #C03028;
+}
+
+.ghost {
+	background-color: #705898;
+}
+
+.normal {
+	background-color: #A8A878;
+}
